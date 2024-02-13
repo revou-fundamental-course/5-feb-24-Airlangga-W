@@ -1,0 +1,123 @@
+#navigation-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    height: min-content;
+    margin-top: 0;
+}
+
+
+#navigation>a {
+    text-decoration: none;
+    padding: 8px;
+}
+
+#navigation:hover {
+    color: red;
+}
+
+/* input section */
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+}
+
+#celsius {
+    outline: none;
+    border-radius: 8px;
+    border: solid black;
+    padding: 8px 8px;
+}
+
+#celsius:focus {
+    border: solid blue
+}
+
+.input-section2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#fahrenheit {
+    outline: none;
+    border-radius: 8px;
+    border: solid black;
+    padding: 8px 8px;
+}
+
+#fahrenheit:focus {
+    border: solid blue
+}
+
+.input-section3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field3 {
+    outline: none;
+    border-radius: 8px;
+    border: solid black;
+    padding: 8px 8px;
+}
+
+.input-field3:focus {
+    border: solid blue
+}
+
+#convert {
+    background-color: lightgray;
+    color: black;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+#convert:hover {
+    background-color: lightcoral;
+}
+
+#convert:active {
+    background-color: coral;
+    transform: translateY(2px);
+}
+
+#reset {
+    background-color: lightgray;
+    color: black;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+#reset:hover {
+    background-color: lightcoral;
+}
+
+#reset:active {
+    background-color: coral;
+    transform: translateY(2px);
+}
+
+#my-button3 {
+    background-color: lightgray;
+    color: black;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+#my-button3:hover {
+    background-color: lightcoral;
+}
+
+#my-button3:active {
+    background-color: coral;
+    transform: translateY(2px);
+}
